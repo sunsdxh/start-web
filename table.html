@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>表格的应用</title>
-</head>
-<body>
-    <table>
-        <th>
-            <td>姓名</td>
-            <td>学号</td>
-            <td>班级</td>
-            <td>身份</td>
-        </th>
-        <tr>
-            <td>姓名</td>
-            <td>学号</td>
-            <td>班级</td>
-            <td>身份</td>
-        </tr>
-        <tr>
-            <td>姓名</td>
-            <td>学号</td>
-            <td>班级</td>
-            <td>身份</td>
-        </tr>
-        <tr>
-            <td>姓名</td>
-            <td>学号</td>
-            <td>班级</td>
-            <td>身份</td>
-        </tr>
-        <tr>
-            <td>姓名</td>
-            <td>学号</td>
-            <td>班级</td>
-            <td>身份</td>
-        </tr>
-    </table>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>表格的应用</title>
+    </head>
+
+    <body>
+        <!--
+            这些h5已经不支持，用CSS,这里只是用来学习的
+        frame:
+            void 无外边线
+            above:只有上边线
+            blow:只有下边线
+            hsides:
+            vsides:
+            lhs:左
+            rhs:右
+            box:default
+
+        rules:
+            rows:
+            cols:
+            alls:
+            groups:
+            none:
+        colgroup:直列化
+
+        col:
+    -->
+        <table border="1" frame="box" rules="alls" width="300" height="200" bgcolor="orange">
+            <caption align="bottom">这是一个测试表格</caption>
+            <col></col>
+            <col span="2" bgcolor="green"></col>
+            <tr>
+                <th>
+                    姓名
+                </th>
+                <th>
+                    学号
+                </th>
+                <th>
+                    班级
+                </th>
+                <th>
+                    身份
+                </th>
+            </tr>
+            <tr bgcolor="red">
+                <td>姓名</td>
+                <td>学号</td>
+                <td>班级</td>
+                <td>身份</td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td>学号</td>
+                <td>班级</td>
+                <td>身份</td>
+            </tr>
+            <tr align="right">
+                <td>姓名</td>
+                <td>学号</td>
+                <td>班级</td>
+                <td>身份</td>
+            </tr>
+            <tr>
+                <td>姓名</td>
+                <td>学号</td>
+                <td>班级</td>
+                <td>身份</td>
+            </tr>
+        </table>
+    </body>
+
 </html>
