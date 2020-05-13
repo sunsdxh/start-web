@@ -1,0 +1,48 @@
+#content {
+    height: 600px;
+    border: 1px solid black;
+    background: white;
+}
+
+#content img{
+    padding: 10px;
+}
+
+#content #server_1 {
+    background: #fff url(../images/server1.jpg) no-repeat right;
+    width: 650px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+#content #server_2 {
+    background: #fff url(../images/server2.jpg) no-repeat left;
+    width: 650px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+#content #server_1 dt {
+    width: 250px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#content #server_1 dd {
+    padding: 8px;
+    width: 250px;
+    line-height: 180%;
+}
+
+#content #server_2 dt {
+    width: 250px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 400px;
+}
+#content #server_2 dd {
+    padding: 8px;
+    width: 250px;
+    line-height: 180%;
+    margin-left: 400px;
+}

@@ -1,0 +1,43 @@
+#content {
+    height: 371px;
+    border: 1px solid black;
+    background: white url(../images/intro.jpg) no-repeat left bottom;
+}
+#content img{
+    display: block;
+    margin-left: 150px;
+}
+#content h1{
+    font-size: 16px;
+    width: 450px;
+    margin-left: 300px;
+    text-align: center;
+}
+
+#content p{
+    color: #666;
+    width: 450px;
+    margin-left: 300px;
+    line-height: 200%;
+    text-indent: 24px;
+}
+
+#content ul{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #399c00;
+    background:url(../images/tel.gif) no-repeat 89% 50%;
+}
+#content ul li{
+    display: inline;
+}
+#content ul li a{
+    text-decoration: none;
+    color: #399c00;
+}
+
+#content ul li a:hover{
+    color: #f60;
+}
